@@ -11,3 +11,20 @@
 </body>
 <script src="index.js"></script>
 </html>
+console.log(`Boja: ${this.boja}`);
+    console.log(`Kvadratura: ${this.kvadratura}`);
+    console.log(`Dvoriste: ${this.dvoriste}`);
+    console.log(`Adresa: ${this.adresa}`);
+    console.log(`Vlasnik: ${this.vlasnik}`);
+
+    const kuca1 = new Kuca("Crvena", 150, true, "123 Main Street", "John Doe");
+
+// Accessing the properties
+console.log(kuca1.boja); // Output: Crvena
+console.log(kuca1.kvadratura); // Output: 150
+console.log(kuca1.dvoriste); // Output: true
+console.log(kuca1.adresa); // Output: 123 Main Street
+console.log(kuca1.vlasnik); // Output: John Doe
+
+// Calling the method
+kuca1.prikaziDetalje();
